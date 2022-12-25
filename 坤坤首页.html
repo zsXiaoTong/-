@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>考试作业</title>
+循环播放图片
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<header class="header">
+<div class="header-inner body-width">
+  <a href="#" class="logo"></a>
+  <div class="category">
+	<a href="#" class="category-link">懒得做</a>
+	<i class="icon-arrow"></i>
+	<div class="category-result"></div>
+	<!-- 边框 -->
+	<span class="btn-border"></span>
+	<span class="result-border"></span>
+	<span class="neck-border"></span>
+  </div>
+  <div class="search">
+	<input type="text" class="search-text" placeholder="来搜索吧，反正也用不了">
+	<button class="search-btn"><i class="icon-search"></i></button>
+  </div>
+  <nav class="header-nav">
+	<ul>
+	  <li>
+		<span class="line"></span>
+		<a href="#" class="dreamer">蔡徐坤</a>
+		<i class="icon-text__pink icon-new">ikun</i>
+	  </li>
+	  <li>
+		<span class="line"></span>
+		<a href="#" class="icon-text__pink register">注册</a>
+	  </li>
+	  <li>
+		<span class="line"></span>
+		<a href="#">登录</a>
+	  </li>
+	  <li>
+		<span class="line"></span>
+		<i class="icon-app"></i>
+		<a href="#" class="app">手机播放</a>
+		<i class="icon-arrow"></i>
+		<div class="app-hover">
+		  <a href="#"></a>
+		  <p>扫一扫支付周周</p>
+		</div>
+	  </li>
+	</ul>
+  </nav>
+</div>
+<div class="header-shadow"></div>
+</header>
+
+<div class="main">
+<div class="main-inner body-width">
+  <div class="banner clearfix">
+	<div class="slider" id="slider">
+	  <ul class="slider-wrapper">
+		<li class="item" data-title="这位爱坤！速速和我打篮球">
+		  <a href="#" class="pic"><img src="images/cont/1.jpg" alt="#"></a>
+		</li>
+		<li class="item" data-title="唱、跳、篮球" data-author="by 蔡徐坤">
+		  <a href="#" class="pic"><img src="images/cont/1.jpg" alt="#"></a>
+		</li>
+		<li class="item" data-title="小黑子，当心我下蛋不给你吃" data-author="by Moollly">
+		  <a href="#" class="pic"><img src="images/cont/1.jpg" alt="#"></a>
+		</li>
+		<li class="item" data-title="我们ikun，不仅怕事，还喜欢到处惹事" data-author="by 周周">
+		  <a href="#" class="pic"><img src="images/cont/1.jpg" alt="#"></a>
+		</li>
+		<li class="item" data-title="鲜为人知的小鲜肉，香精煎鱼">
+		  <a href="#" class="pic"><img src="images/cont/1.jpg" alt="#"></a>
+		</li>
+	  </ul>
+	  <a href="javascript:;" class="slider-prev"></a>
+	  <a href="javascript:;" class="slider-next"></a>
+	  <div class="slider-title">
+		<h2></h2>
+		<span></span>
+	  </div>
+	  <div class="slider-btns">
+		<span class="item"></span>
+		<span class="item"></span>
+		<span class="item"></span>
+		<span class="item"></span>
+		<span class="item"></span>
+	  </div>
+	</div>
+	<div class="banner-info">
+	  <div class="news body-border">
+		<ul>
+		  <li class="title">爱坤语录</li>
+		  <li class="link">
+			<a href="#">冬天</a>
+			<span></span>
+			<a href="#">把坤坤烤了</a>
+			<span></span>
+			<a href="#">就成为了早餐</a>
+			<span></span>
+			<a href="#">记下时间走过的路</a>
+			<span></span>
+			<a href="#">穿搭</a>
+			<span></span>
+			<a href="#">背带裤</a>
+			<span></span>
+			<a href="#">中分</a>
+			<span></span>
+		  </li>
+		  <li class="choose">
+			<a href="#">『人气背带裤坤坤』 大合集</a>
+			<span class="icon-text__pink">ikun</span>
+		  </li>
+		  <li class="assistant">
+			<p>收黑小助手:  <a href="#">周周情报网</a></p>
+		  </li>
+		</ul>
+	  </div>
+	  <div class="app body-border"><a href="#"></a></div>
+	</div>
+  </div>
+  <div class="main-cont main-album">
+	<div class="main-cont__title">
+	  <h3>动画效果</h3>
+	  <a href="#" class="more">更多坤坤 ></a>
+	</div>
+	<ul class="main-cont__list clearfix">
+	  <li class="item">
+		<a href="#" class="pic"><img src="images/cont/1.jpg" alt="#"></a>
+		<div class="info">
+		  <a href="#" class="title">你的鸡圈需要坤坤来守护</a>
+		  <p>68张图片 · 2255人收藏</p>
+		  <p>by <a href="#" class="author">周周</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic"><img src="images/cont/1.jpg" alt="#"></a>
+		<div class="info">
+		  <a href="#" class="title">你的鸡圈需要坤坤来守护</a>
+		  <p>68张图片 · 2255人收藏</p>
+		  <p>by <a href="#" class="author">周周</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic"><img src="images/cont/1.jpg" alt="#"></a>
+		<div class="info">
+		  <a href="#" class="title">你的鸡圈需要坤坤来守护</a>
+		  <p>68张图片 · 2255人收藏</p>
+		  <p>by <a href="#" class="author">周周</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic"><img src="images/cont/1.jpg" alt="#"></a>
+		<div class="info">
+		  <a href="#" class="title">你的鸡圈需要坤坤来守护</a>
+		  <p>68张图片 · 2255人收藏</p>
+		  <p>by <a href="#" class="author">周周</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic"><img src="images/cont/1.jpg" alt="#"></a>
+		<div class="info">
+		  <a href="#" class="title">你的鸡圈需要坤坤来守护</a>
+		  <p>68张图片 · 2255人收藏</p>
+		  <p>by <a href="#" class="author">周周</a></p>
+		</div>
+	  </li>
+	</ul>
+  </div>
+  <div class="main-cont main-recommend">
+	<div class="main-cont__title">
+	  <h3>坤牌推荐</h3>
+	  <p class="list">
+		<em>周周的良心品牌推荐：</em>
+		<a href="#">全部</a>
+		<span>|</span>
+		<a href="#">套装</a>
+		<span>|</span>
+		<a href="#">中分</a>
+		<span>|</span>
+		<a href="#">背带裤</a>
+		<span>|</span>
+		<a href="#">篮球</a>
+		<span>|</span>
+		<a href="#">黑色球衣</a>
+		<span>|</span>
+		<a href="#">肩带</a>
+	  </p>
+	</div>
+	<ul class="main-cont__list clearfix">
+	  <li class="item">
+		<a href="#" class="pic"><img src="images/cont/1.jpg" alt="#" width="200"></a>
+		<div class="info">
+		  <a href="#" class="title">坤坤套装</a>
+		  <span>18739人在逛</span>
+		  <a href="#" class="icon-text__pink purchase">良品购</a>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic"><img src="images/cont/1.jpg" alt="#" width="200"></a>
+		<div class="info">
+		  <a href="#" class="title">坤坤套装</a>
+		  <span>18739人在逛</span>
+		  <a href="#" class="icon-text__pink purchase">良品购</a>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic"><img src="images/cont/1.jpg" alt="#" width="200"></a>
+		<div class="info">
+		  <a href="#" class="title">坤坤套装</a>
+		  <span>18739人在逛</span>
+		  <a href="#" class="icon-text__pink purchase">良品购</a>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic"><img src="images/cont/1.jpg" alt="#" width="200"></a>
+		<div class="info">
+		  <a href="#" class="title">坤坤套装</a>
+		  <span>18739人在逛</span>
+		  <a href="#" class="icon-text__pink purchase">良品购</a>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic"><img src="images/cont/1.jpg" alt="#" width="200"></a>
+		<div class="info">
+		  <a href="#" class="title">坤坤套装</a>
+		  <span>18739人在逛</span>
+		  <a href="#" class="icon-text__pink purchase">良品购</a>
+		</div>
+	  </li>
+	</ul>
+  </div>
+  <div class="main-cont main-user">
+	<div class="main-cont__title">
+	  <h3>ikun推荐</h3>
+	  <a href="#" class="more">更多达人 ></a>
+	</div>
+	<ul class="main-cont__list clearfix">
+	  <li class="item">
+		<a href="#" class="pic" style=" background: url(images/cont/1.jpg) no-repeat; background-size: cover; "></a>
+		<a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		<div class="info">
+		  <a href="#" class="info-title">周周</a>
+		  <p><i class="icon-star"></i>9645</p>
+		  <p>擅长领域: <b>小黑子</b></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic" style=" background: url(images/cont/1.jpg) no-repeat; background-size: cover; "></a>
+		<a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		<div class="info">
+		  <a href="#" class="info-title">发发</a>
+		  <p><i class="icon-star"></i>9645</p>
+		  <p>擅长领域: <b>杀周</b></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic" style=" background: url(images/cont/1.jpg) no-repeat; background-size: cover; "></a>
+		<a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		<div class="info">
+		  <a href="#" class="info-title">吉大甬</a>
+		  <p><i class="icon-star"></i>9645</p>
+		  <p>擅长领域: <b>替罪鸡</b></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic" style=" background: url(images/cont/1.jpg) no-repeat; background-size: cover; "></a>
+		<a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		<div class="info">
+		  <a href="#" class="info-title">贾海龙</a>
+		  <p><i class="icon-star"></i>9645</p>
+		  <p>擅长领域: <b>吃鸡</b></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic" style=" background: url(images/cont/1.jpg) no-repeat; background-size: cover; "></a>
+		<a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		<div class="info">
+		  <a href="#" class="info-title">浩楠</a>
+		  <p><i class="icon-star"></i>9645</p>
+		  <p>擅长领域: <b>活着</b></p>
+		</div>
+	  </li>
+	</ul>
+  </div>
+  <div class="main-cont main-waterfall">
+	<div class="main-cont__title">
+	  <h3>大家都是小黑子</h3>
+	</div>
+	<ul class="main-cont__list clearfix">
+	  <li class="item item-cur">
+		<a href="#" class="pic">
+		  <img src="images/cont/1.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/1.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/1.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/1.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/waterfall_img5.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/1.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/1.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/1.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/1.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/waterfall_img5.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/1.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/1.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/1.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/1.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	  <li class="item">
+		<a href="#" class="pic">
+		  <img src="images/cont/waterfall_img5.jpg" alt="#">
+		</a>
+		<div class="waterfall-hover">
+		  <span class="mask"></span>
+		  <a href="#" class="btn-collect">收集  45</a>
+		  <a href="#" class="btn-white btn-like"></a>
+		  <a href="#" class="btn-white btn-comment"></a>
+		</div>
+		<div class="waterfall-info">
+		  <p class="title">闪亮小公举.牛源 2022早春篮球系列</p>
+		  <p class="icon"><span class="icon-star">89</span><span class="icon-like">10</span></p>
+		</div>
+		<div class="collect-info">
+		  <a href="#" class="headImg"><img src="images/cont/1.jpg" alt="#"></a>
+		  <p class="title"><a href="#">谢特周</a></p>
+		  <p class="to">收集到<a href="#">时尚语型录</a></p>
+		</div>
+	  </li>
+	</ul>
+  </div>
+</div>
+<a href="#" id="readMore">看看更多ikun ></a>
+</div>
+
+<footer class="footer">
+<div class="footer-container">
+  <div class="footer-link">
+	<div class="footer-link__item">
+	  <h4 class="footer-title">关于坤坤</h4>
+	  <ul class="footer-list">
+		<li class="item"><a href="#">关于周周</a></li>
+		<li class="item"><a href="#">关于发发</a></li>
+		<li class="item"><a href="#">加入我们</a></li>
+		<li class="item"><a href="#">联系我们</a></li>
+		<li class="item"><a href="#">外币八部</a></li>
+		<li class="item"><a href="#">玛卡巴卡</a></li>
+		<li class="item"><a href="#">发发便秘</a></li>
+	  </ul>
+	</div>
+	<div class="footer-link__item">
+	  <h4 class="footer-title">手机支付</h4>
+	  <ul class="footer-list">
+		<li class="item"><a href="#">关于坤坤</a></li>
+		<li class="item"><a href="#">帮助中心</a></li>
+		<li class="item"><a href="#">加入坤坤</a></li>
+	  </ul>
+	</div>
+	<div class="footer-link__item">
+	  <div class="footer-orcode"><img src="images/app_qrcode.png" alt="#"></div>
+	  <div class="orcode-text">
+		<p>手机扫描二维码</p>
+		<p>支付周周</p>
+	  </div>
+	</div>
+	<div class="footer-link__item">
+	  <h4 class="footer-title">关注坤坤</h4>
+	  <ul class="footer-list">
+		<li class="item"><a href="#">关于坤坤</a></li>
+		<li class="item"><a href="#">帮助中心</a></li>
+	  </ul>
+	</div>
+	<div class="footer-link__item">
+	  <h4 class="footer-title">ikun链接</h4>
+	  <ul class="footer-list">
+		<li class="item"><a href="#">关于坤坤</a></li>
+		<li class="item"><a href="#">帮助中心</a></li>
+		<li class="item"><a href="#">关于坤坤</a></li>
+		<li class="item"><a href="#">帮助中心</a></li>
+		<li class="item"><a href="#">关于坤坤</a></li>
+		<li class="item"><a href="#">帮助中心</a></li>
+		<li class="item"><a href="#">关于坤坤</a></li>
+		<li class="item"><a href="#">帮助中心</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+</footer>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
